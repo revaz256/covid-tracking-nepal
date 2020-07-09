@@ -1,10 +1,12 @@
 .covid-details {
     font-size: 22px;
     margin: 0;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 }
 
 .title {
     font-size: 60px;
     margin: 0;
     font-weight: bold;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
 }
