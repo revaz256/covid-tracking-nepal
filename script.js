@@ -1,4 +1,15 @@
+// find a way to run script upon clicking the map instead of immediately
+
 var url = "https://api.covid19api.com/country/nepal";
+
+$(function(){
+    if($('body').is('.nepal')){
+        url = "https://api.covid19api.com/country/nepal";
+
+    } else if($('body').is('.russia')){
+        url = "https://api.covid19api.com/country/russia";
+    }
+});
 
 $.getJSON(
     url,
@@ -54,4 +65,4 @@ $.getJSON(
             }
         });
     }
-)
+);
