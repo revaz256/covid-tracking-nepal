@@ -1,5 +1,7 @@
+var url = "https://api.covid19api.com/country/nepal";
+
 $.getJSON(
-    "https://api.covid19api.com/country/nepal",
+    url,
     function(data) {
         //console.log(data);
         var latest = data.length - 1;
